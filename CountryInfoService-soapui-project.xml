@@ -1376,7 +1376,7 @@ testcases.each{
 log.info(testRunner.testCase.name)
 
 def testSuites = context.testCase.testSuite.project.testSuites["TestSuite-Hema"]
-testSuites.run(null, false)</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="c83a591d-2bc4-4714-9f0b-ca05784c993c" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="GroovyTestcase" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script1" id="2559ddd4-b4a9-42de-bec2-abc896825341"><con:settings/><con:config><script>log.info "Hello"
+testSuites.run(null, false)</script></con:config></con:testStep><con:testStep type="groovy" name="GroovyScript" id="84ed4496-17c1-4252-b2ff-2b69e7dd33b8"><con:settings/><con:config><script/></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="c83a591d-2bc4-4714-9f0b-ca05784c993c" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="GroovyTestcase" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script1" id="2559ddd4-b4a9-42de-bec2-abc896825341"><con:settings/><con:config><script>log.info "Hello"
 
 def a = 10;
 def b = 20;
